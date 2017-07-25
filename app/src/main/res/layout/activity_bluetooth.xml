@@ -84,18 +84,18 @@ tools:context="com.example.cal_staff.splashkit.Bluetooth">
         android:layout_toEndOf="@+id/checkboxLED1" />
 
     <ListView
-        android:layout_width="313dp"
-        android:layout_height="230dp"
         android:id="@+id/devicesListView"
-        android:choiceMode="singleChoice"
-        android:layout_below="@+id/PairedBtn"
+        android:layout_width="349dp"
+        android:layout_height="222dp"
+        android:layout_alignEnd="@+id/off"
         android:layout_alignRight="@+id/off"
-        android:layout_alignEnd="@+id/off" />
+        android:layout_below="@+id/PairedBtn"
+        android:choiceMode="singleChoice" />
 
     <Button
         android:id="@+id/back3"
         android:layout_width="75dp"
-        android:layout_height="34dp"
+        android:layout_height="40dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
